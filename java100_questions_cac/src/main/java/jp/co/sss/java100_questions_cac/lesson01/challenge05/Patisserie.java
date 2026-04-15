@@ -54,39 +54,32 @@ public class Patisserie {
 
 		System.out.print("シトロン＞");
 		String hmsitoro = reader.readLine();
-		
-	    System.out.print("ショコラ＞");
+
+		System.out.print("ショコラ＞");
 		String hmshokora = reader.readLine();
-		
+
 		System.out.print("ピスターシュ＞");
-		String hmpisu = reader.readLine();	
-		
-	     
-		int sitoroko=Integer.parseInt(hmsitoro);
-		int shokorako=Integer.parseInt(hmshokora);
-		int pisuko=Integer.parseInt(hmpisu);
-		
-		
-		 int totalcount=sitoroko+shokorako+pisuko;
-		 
-		 int totalmoney=(sitoroko*250)+(shokorako*280)+(pisuko*320);
-		 
-		 
-		 
-		 
-		 
-		
-		
-		
-		
+		String hmpisu = reader.readLine();
+
+		int sitoroko = Integer.parseInt(hmsitoro);
+		int shokorako = Integer.parseInt(hmshokora);
+		int pisuko = Integer.parseInt(hmpisu);
+
+		int totalcount = sitoroko + shokorako + pisuko;
+
+		int totalmoney = (sitoroko * 250) + (shokorako * 280) + (pisuko * 320);
+
 		System.out.println("シトロン" + hmsitoro + "個");
 		System.out.println("ショコラ" + hmshokora + "個");
 		System.out.println("ピスターシュ" + hmpisu + "個");
-		System.out.println(totalcount+"個");
+
+		System.out.println("合計個数" + totalcount + "個");
+		System.out.println("合計金額" + totalmoney + "円");
 		System.out.println("をお買い上げですね。");
 		System.out.println("承りました！");
 
-  
+	}
+
 }
 
 //	それぞれ何個ずつ買いますか？（最大30個まで）
