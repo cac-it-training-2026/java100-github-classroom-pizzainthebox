@@ -21,6 +21,6 @@
 
 package jp.co.sss.java100_questions_cac.lesson01.challenge03;
 
-public class Patisserie {
+
 
 }
